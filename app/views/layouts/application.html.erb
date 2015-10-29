@@ -7,6 +7,26 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header>
+		<div class="col-xs-3">
+			<div class="circle">
+				<br />
+				Look at
+				<br />
+				all of
+				<br />
+				Angie's messages!
+			</div>
+		</div>
+		<div class="col-xs-4 slogan">
+			Leave messages on Angie's app
+		</div>
+		<div class="col-xs-5 links">
+			<%= link_to 'Submit', '#' %>
+		</div>
+	</header>
+	<hr />
+	<br class="clear" />
 
 <%= yield %>
 
