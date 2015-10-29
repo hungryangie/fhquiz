@@ -1,0 +1,7 @@
+<h1>Enter Your Message to Angie</h1>
+<%= simple_form_for @note do |f| %>
+	<%= f.input :message %>
+	<%= f.input :name %>
+	<br />
+	<%= f.submit 'Create', :class => 'btn btn-primary' %>
+<% end %>

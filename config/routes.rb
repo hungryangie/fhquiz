@@ -55,4 +55,6 @@ Fhquiz::Application.routes.draw do
   #   end
 
   root 'notes#index'
+
+  resources :notes
 end

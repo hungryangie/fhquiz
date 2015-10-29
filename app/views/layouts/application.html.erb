@@ -9,20 +9,22 @@
 <body>
 	<header>
 		<div class="col-xs-3">
+			<%= link_to	root_path, :class => 'logo' do %>
 			<div class="circle">
 				<br />
 				Look at
 				<br />
-				all of
+				all her
 				<br />
-				Angie's messages!
+				messages!
 			</div>
+			<% end %>
 		</div>
 		<div class="col-xs-4 slogan">
 			Leave messages on Angie's app
 		</div>
 		<div class="col-xs-5 links">
-			<%= link_to 'Submit', '#' %>
+			<%= link_to 'Create', new_note_path %>
 		</div>
 	</header>
 	<hr />
